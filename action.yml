@@ -1,5 +1,5 @@
-name: 'Project "Piper" Action'
-description: 'CI/CD tooling for the SAP Ecosystem'
+name: 'TEST - Project "Piper" Action'
+description: 'none'
 inputs:
   step-name:
     description: 'Name of Piper step to execute'
