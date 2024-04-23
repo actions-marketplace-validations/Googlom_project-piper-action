@@ -25,7 +25,7 @@ jobs:
 
   release:
     name: Release with new tag
-    needs: check_date
+    needs: check_latest_commit_date
     if: ${{ needs.check_date.outputs.should_run != 'false' }}
     runs-on: ubuntu-latest
     steps:
